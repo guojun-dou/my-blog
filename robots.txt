@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://guojun-dou.github.io/sitemap.xml
+Sitemap: https://guojun-dou.github.io/my-blog/sitemap.xml
