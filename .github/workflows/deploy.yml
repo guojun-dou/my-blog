@@ -1,0 +1,32 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.117.0'
+          # 如果你需要 extended（scss支持），填 '0.117.0-extended' 或对应版本
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          # 默认使用 GITHUB_TOKEN，已足够
