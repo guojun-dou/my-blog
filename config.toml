@@ -1,0 +1,13 @@
+baseURL = "https://guojun-dou.github.io/"
+languageCode = "zh-cn"
+title = "my-blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  comments = false
