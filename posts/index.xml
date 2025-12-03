@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on my-blog</title><link>https://guojun-dou.github.io/posts/</link><description>Recent content in Posts on my-blog</description><generator>Hugo -- 0.152.0</generator><language>zh-cn</language><atom:link href="https://guojun-dou.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://guojun-dou.github.io/posts/hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://guojun-dou.github.io/posts/hello-world/</guid><description>&lt;h1 id="teamface"&gt;teamface&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;work system&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="build-setup"&gt;Build Setup&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# install dependencies&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# serve with hot reload at localhost:8080&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm run dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# build for production with minification&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm run build
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# build for production and view the bundle analyzer report&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm run build --report
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a detailed explanation on how things work, check out the &lt;a href="http://vuejs-templates.github.io/webpack/"&gt;guide&lt;/a&gt; and &lt;a href="http://vuejs.github.io/vue-loader"&gt;docs for vue-loader&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
