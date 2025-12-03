@@ -1,8 +1,9 @@
-baseURL = "https://guojun-dou.github.io/"
+baseURL = "https://guojun-dou.github.io/my-blog/"
 languageCode = "zh-cn"
 title = "my-blog"
 theme = "PaperMod"
 enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
   defaultTheme = "auto"
@@ -11,3 +12,5 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   comments = false
+[permalinks]
+  posts = "/posts/:slug/"
